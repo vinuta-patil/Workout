@@ -40,13 +40,13 @@ This application is **already deployed** on an AWS EC2 instance, so users only n
 
 ### 1️⃣ Connect to Your AWS EC2 Instance
 
-```bash
+``bash
 ssh -i your-key.pem ubuntu@your-ec2-ip
-## 2️⃣ Update the Application
+### 2️⃣ Update the Application
 
 Navigate to the project directory and pull the latest code:
 
-```bash
+``bash
 cd ~/mern-workout-tracker
 git pull origin main
 ### 3️⃣ Restart the Backend
