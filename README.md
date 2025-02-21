@@ -48,16 +48,14 @@ cd ~/mern-workout-tracker
 git pull origin main
 
 ### 3️⃣ Restart the Backend
-cd backend
-npm install
+cd backend  
+npm install  
 pm2 restart mern-backend
 
 ### 4️⃣ Deploy the Frontend
-Copy
-Edit
-cd ../frontend
-npm install
-npm run build
+cd ../frontend  
+npm install  
+npm run build  
 sudo systemctl restart nginx
 
 ### 5️⃣ Automate Future Updates
