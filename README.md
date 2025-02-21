@@ -16,7 +16,6 @@ With **automatic updates on AWS EC2**, the application **instantly reflects any 
 - ✅ **Global State Management** – Uses React Context API for seamless state handling  
 - ✅ **Secure API Requests** – JWT authentication protects user data  
 - ✅ **Automatic AWS Deployment** – Push changes to GitHub, and the website updates itself  
-- ✅ **Mobile-Friendly** – Responsive UI for a smooth experience on all devices  
 
 ---
 
@@ -40,16 +39,41 @@ This application is **already deployed** on an AWS EC2 instance, so users only n
 
 ### 1️⃣ Connect to Your AWS EC2 Instance
 
-``bash
 ssh -i your-key.pem ubuntu@your-ec2-ip
 ### 2️⃣ Update the Application
 
 Navigate to the project directory and pull the latest code:
 
-``bash
 cd ~/mern-workout-tracker
 git pull origin main
+
 ### 3️⃣ Restart the Backend
 cd backend
 npm install
 pm2 restart mern-backend
+
+### 4️⃣ Deploy the Frontend
+Copy
+Edit
+cd ../frontend
+npm install
+npm run build
+sudo systemctl restart nginx
+
+### 5️⃣ Automate Future Updates
+Instead of manually deploying, the server automatically updates when new code is pushed to GitHub. The webhook script ensures changes are pulled and deployed instantly.
+
+## 🌎 How This Helps End Users
+
+- 🔹 **Organized Tracking** – Users can log their workouts without relying on notes  
+- 🔹 **Cloud-based Access** – No need to install anything, workouts are saved online  
+- 🔹 **Data Security** – Passwords are encrypted, and authentication ensures privacy  
+- 🔹 **Real-time Updates** – No need to refresh; workouts appear dynamically  
+- 🔹 **Fast & Reliable** – Deployed on AWS for high availability  
+
+---
+
+## 🚀 Ready to Use  
+
+Simply visit **[your deployed website URL]** to start logging workouts today! 💪✨  
+
