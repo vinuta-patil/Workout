@@ -63,11 +63,11 @@ Instead of manually deploying, the server automatically updates when new code is
 
 ## 🌎 How This Helps End Users
 
-- 🔹 **Organized Tracking** – Users can log their workouts without relying on notes  
-- 🔹 **Cloud-based Access** – No need to install anything, workouts are saved online  
-- 🔹 **Data Security** – Passwords are encrypted, and authentication ensures privacy  
-- 🔹 **Real-time Updates** – No need to refresh; workouts appear dynamically  
-- 🔹 **Fast & Reliable** – Deployed on AWS for high availability  
+🔹 **Organized Tracking** – Users can log their workouts without relying on notes  
+🔹 **Cloud-based Access** – No need to install anything, workouts are saved online  
+🔹 **Data Security** – Passwords are encrypted, and authentication ensures privacy  
+🔹 **Real-time Updates** – No need to refresh; workouts appear dynamically  
+🔹 **Fast & Reliable** – Deployed on AWS for high availability  
 
 ---
 
