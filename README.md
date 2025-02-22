@@ -10,12 +10,12 @@ With **automatic updates on AWS EC2**, the application **instantly reflects any 
 
 ## 🌟 Features
 
-- ✅ **User Authentication** – Signup, login, and secure access to personal workouts  
-- ✅ **Workout Management** – Add, view, and delete workouts dynamically  
-- ✅ **Real-time Updates** – Workouts appear instantly after adding or removing them  
-- ✅ **Global State Management** – Uses React Context API for seamless state handling  
-- ✅ **Secure API Requests** – JWT authentication protects user data  
-- ✅ **Automatic AWS Deployment** – Push changes to GitHub, and the website updates itself  
+✅ **User Authentication** – Signup, login, and secure access to personal workouts  
+✅ **Workout Management** – Add, view, and delete workouts dynamically  
+✅ **Real-time Updates** – Workouts appear instantly after adding or removing them  
+✅ **Global State Management** – Uses React Context API for seamless state handling  
+✅ **Secure API Requests** – JWT authentication protects user data  
+✅ **Automatic AWS Deployment** – Push changes to GitHub, and the website updates itself  
 
 ---
 
