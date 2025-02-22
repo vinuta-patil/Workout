@@ -75,3 +75,8 @@ Instead of manually deploying, the server automatically updates when new code is
 
 Simply visit **[your deployed website URL]** to start logging workouts today! 💪✨  
 
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+
